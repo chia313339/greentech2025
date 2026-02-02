@@ -106,7 +106,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/2025/'),
   routes,
   scrollBehavior() {
     return { left: 0, top: 0 }
